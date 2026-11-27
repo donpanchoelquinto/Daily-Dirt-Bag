@@ -41,6 +41,8 @@
       .replace("%s", seconds);
     countdown.innerHTML = output;
   };
-  countDownDate();
-  setInterval(countDownDate, 1000);
+  if (countdown) {
+    countDownDate();
+    setInterval(countDownDate, 1000);
+  }
 })();
