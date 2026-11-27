@@ -617,6 +617,11 @@ body.modal-open {
   object-position: 22% center;
 }
 
+.article-hero img.frame-right,
+.article-figure img.frame-right {
+  object-position: 78% center;
+}
+
 .article-figure img[src$="logo.png"] {
   width: auto;
   max-height: 220px;
