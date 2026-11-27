@@ -5,9 +5,17 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Bag of Dirt</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Daily Dirt Bag</title>
+  <meta content="We make fun of Collin so you don&#x27;t have to. Satirical stories from the Daily Dirt Bag." name="description">
+  <meta content="satire, humor, news, Daily Dirt Bag" name="keywords">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Daily Dirt Bag">
+  <meta property="og:title" content="Daily Dirt Bag">
+  <meta property="og:description" content="We make fun of Collin so you don&#x27;t have to. Satirical stories from the Daily Dirt Bag.">
+  <meta property="og:image" content="https://donpanchoelquinto.github.io/Daily-Dirt-Bag/assets/img/articles/collin-dangerous-area.jpg">
+  <meta property="og:url" content="https://donpanchoelquinto.github.io/Daily-Dirt-Bag/">
+  <meta name="twitter:card" content="summary_large_image">
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -24,16 +32,14 @@
 
 </head>
 
-<body>
+<body data-root="">
 
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-        <!-- Uncomment below if you prefer to use text -->
-        <!--<h1 class="text-light"><a href="index.html"><span>DailyDirtBag</span></a></h1>-->
+        <a href="index.html"><img src="assets/img/logo.png" alt="Daily Dirt Bag home" class="img-fluid"></a>
       </div>
 
       <div class="contact-link float-right">
@@ -48,21 +54,12 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Daily Dirt Bag</h1>
-      <h2>Due to logistical issues, liability concerns, and moral objections, the Daily Dirt Bag has been temporarily postponed, but don't despair: the Daily Dirt Bag will come. In the meantime, enjoy the archives below.</h2>
-      <p class="hero-news-link"><a href="#news" class="scrollto">Read the latest stories &darr;</a></p>
+      <h2>We make fun of Collin so you don't have to.</h2>
 
-      <form action="https://api.sheetmonkey.io/form/8MZnHPYkh5xeq2bFE58ewi" method="post" role="form" class="php-email-form">
-        <div class="row no-gutters">
-          <div class="col-md-6 form-group pr-md-1">
-            <input type="text" name="Name" placeholder="Your Name" class="form-control">
-          </div>
-        </br></br>
-          <div class="col-md-6 form-group pl-md-1">
-            <input type="email" name="Email" placeholder="Your Email" class="form-control">
-          </div>
-        </div>
-        <div class="text-center"><button type="submit">Get notified!</button></div>
-      </form>
+      <div class="hero-actions">
+        <button type="button" class="signup-btn" data-open-signup>Sign up</button>
+        <a href="#news" class="hero-news-link scrollto">Read the latest stories &darr;</a>
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -73,76 +70,131 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>From the Archives</h2>
-          <p>All stories are satire. Any resemblance to Collin is entirely deserved.</p>
+          <h2>Latest Stories</h2>
+          <p>All stories are satire, and all bylines are fictional. Any resemblance to Collin is entirely deserved.</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2026-11-20">November 20, 2026</time>
-              <h3>Collin Reportedly Refreshing Website to See If He Is on It. He Is.</h3>
-              <p>Sources close to the Daily Dirt Bag confirm the subject checked the page eleven times before lunch. When asked for comment, he said he was "just making sure the formatting looks okay."</p>
+            <article class="news-card">
+              <a href="articles/collin-checks-website-eleven-times.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-portrait.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Breaking</span>
+                <h3><a href="articles/collin-checks-website-eleven-times.html">Collin Reportedly Refreshing Website to See If He Is on It. He Is.</a></h3>
+                <p class="news-meta">By Beatrice Okafor &middot; <time datetime="2026-11-20">November 20, 2026</time></p>
+                <p>Sources close to the Daily Dirt Bag confirm the subject checked the page eleven times before lunch. When asked for comment, he said he was "just making sure the formatting looks okay."</p>
+                <a href="articles/collin-checks-website-eleven-times.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2025-05-07">May 7, 2025</time>
-              <h3>Dirt Bag Launch Postponed Again; Sources Blame Liability and Moral Objections</h3>
-              <p>Editors cited "logistical issues" and a stack of letters from the Department of Common Decency. Collin called the delay "a win for everyone," then asked who the letters were from.</p>
+            <article class="news-card">
+              <a href="articles/launch-postponed-again.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/signs-banner.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Investigations</span>
+                <h3><a href="articles/launch-postponed-again.html">Dirt Bag Launch Postponed Again; Sources Blame Liability and Moral Objections</a></h3>
+                <p class="news-meta">By Dale Overholt &middot; <time datetime="2025-05-07">May 7, 2025</time></p>
+                <p>Editors cited "logistical issues" and a stack of letters from the Department of Common Decency. Collin called the delay "a win for everyone," then asked who the letters were from.</p>
+                <a href="articles/launch-postponed-again.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2024-03-19">March 19, 2024</time>
-              <h3>Collin Confidently Gives Directions; Everyone Else Arrives First</h3>
-              <p>"Just take a left at the big tree," said Collin, who has never correctly identified a tree. Search parties were dispatched at 4:15 p.m. and found the group at the restaurant, already on appetizers.</p>
+            <article class="news-card">
+              <a href="articles/collin-gives-directions.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-pointing.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Travel</span>
+                <h3><a href="articles/collin-gives-directions.html">Collin Confidently Gives Directions; Everyone Else Arrives First</a></h3>
+                <p class="news-meta">By Tobias Wren &middot; <time datetime="2024-03-19">March 19, 2024</time></p>
+                <p>"Just take a left at the big tree," said Collin, who has never correctly identified a tree. Search parties were dispatched at 4:15 p.m. and found the group at the restaurant, already on appetizers.</p>
+                <a href="articles/collin-gives-directions.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2023-07-08">July 8, 2023</time>
-              <h3>Study Finds Collin's "Two Minutes Away" Is Scientifically Closer to Twenty</h3>
-              <p>Researchers tracked fourteen separate "almost there" texts and measured an average real-world arrival gap of eighteen minutes. The study's authors have since stopped waiting for him to review the findings.</p>
+            <article class="news-card">
+              <a href="articles/two-minutes-away-study.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-cap.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Science</span>
+                <h3><a href="articles/two-minutes-away-study.html">Study Finds Collin's "Two Minutes Away" Is Scientifically Closer to Twenty</a></h3>
+                <p class="news-meta">By Priya Venkataraman &middot; <time datetime="2023-07-08">July 8, 2023</time></p>
+                <p>Researchers tracked fourteen separate "almost there" texts and measured an average real-world arrival gap of eighteen minutes. The study's authors have since stopped waiting for him to review the findings.</p>
+                <a href="articles/two-minutes-away-study.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2022-10-12">October 12, 2022</time>
-              <h3>Daily Dirt Bag Launches; Collin "Not Surprised," Mildly Flattered</h3>
-              <p>The new publication promises "daily coverage of the stories that matter, to us." Collin issued a statement calling the site "a lot of effort for something so obviously unnecessary," then bookmarked it.</p>
+            <article class="news-card">
+              <a href="articles/daily-dirt-bag-launches.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-dangerous-area.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Announcements</span>
+                <h3><a href="articles/daily-dirt-bag-launches.html">Daily Dirt Bag Launches; Collin "Not Surprised," Mildly Flattered</a></h3>
+                <p class="news-meta">By Marguerite "Midge" Fontaine &middot; <time datetime="2022-10-12">October 12, 2022</time></p>
+                <p>The new publication promises "daily coverage of the stories that matter, to us." Collin issued a statement calling the site "a lot of effort for something so obviously unnecessary," then bookmarked it.</p>
+                <a href="articles/daily-dirt-bag-launches.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2021-06-22">June 22, 2021</time>
-              <h3>Collin Arrives "Right on Time" to Event That Ended Forty Minutes Ago</h3>
-              <p>Witnesses say he walked in carrying a folding chair and a full sense of confidence. Organizers had already stacked the tables, swept the floor, and said their goodbyes.</p>
+            <article class="news-card">
+              <a href="articles/right-on-time-event-over.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-no-trespassing.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Local</span>
+                <h3><a href="articles/right-on-time-event-over.html">Collin Arrives "Right on Time" to Event That Ended Forty Minutes Ago</a></h3>
+                <p class="news-meta">By Rafael Quintero &middot; <time datetime="2021-06-22">June 22, 2021</time></p>
+                <p>Witnesses say he walked in carrying a folding chair and a full sense of confidence. Organizers had already stacked the tables, swept the floor, and said their goodbyes.</p>
+                <a href="articles/right-on-time-event-over.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2020-04-14">April 14, 2020</time>
-              <h3>Quarantine Day 31: Collin Has Rewatched the Same Show Four Times and Calls It "Research"</h3>
-              <p>Asked what exactly he was researching, Collin said "the plot," despite having correctly predicted none of it on any of the previous viewings.</p>
+            <article class="news-card">
+              <a href="articles/quarantine-day-31-research.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-portrait.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Culture</span>
+                <h3><a href="articles/quarantine-day-31-research.html">Quarantine Day 31: Collin Has Rewatched the Same Show Four Times and Calls It "Research"</a></h3>
+                <p class="news-meta">By Hollis Granger &middot; <time datetime="2020-04-14">April 14, 2020</time></p>
+                <p>Asked what exactly he was researching, Collin said "the plot," despite having correctly predicted none of it on any of the previous viewings.</p>
+                <a href="articles/quarantine-day-31-research.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
 
           <div class="col-lg-6">
-            <article class="news-item">
-              <time datetime="2019-12-03">December 3, 2019</time>
-              <h3>Collin Declares Himself "Basically a Professional" After Winning One Round of Mario Kart</h3>
-              <p>The round was played on the easiest track, against a seven-year-old who was also eating a sandwich. Collin has asked that his title be used in all future correspondence.</p>
+            <article class="news-card">
+              <a href="articles/basically-a-professional.html" class="news-card-media" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/articles/collin-cap.jpg" alt="" loading="lazy">
+              </a>
+              <div class="news-card-body">
+                <span class="kicker">Sports &amp; Games</span>
+                <h3><a href="articles/basically-a-professional.html">Collin Declares Himself "Basically a Professional" After Winning One Round of Mario Kart</a></h3>
+                <p class="news-meta">By Wendell Pike &middot; <time datetime="2019-12-03">December 3, 2019</time></p>
+                <p>The round was played on the easiest track, against a seven-year-old who was also eating a sandwich. Collin has asked that his title be used in all future correspondence.</p>
+                <a href="articles/basically-a-professional.html" class="read-more">Read the story &rarr;</a>
+              </div>
             </article>
           </div>
-
         </div>
 
       </div>
@@ -170,7 +222,7 @@
             <div class="contact-phone">
               <i class="bi bi-phone"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:2088013053‬">(208) 801-3053‬</a></p>
+              <p><a href="tel:2088013053">(208) 801-3053</a></p>
             </div>
           </div>
 
@@ -185,7 +237,7 @@
         </div>
 
         <div class="form">
-          <form action="https://api.sheetmonkey.io/form/gpj1yWP5Uqi8aseSPGazQ" method="post" class="php-email-form">
+          <form action="https://api.sheetmonkey.io/form/gpj1yWP5Uqi8aseSPGazQ" method="post" class="php-email-form" data-ajax-form target="submit-frame">
             <div class="row">
               <div class="col-md form-group">
                 <input type="text" name="Name" class="form-control" placeholder="Your Name" required>
@@ -201,6 +253,7 @@
               <textarea class="form-control" name="Message" rows="5" placeholder="Message" required></textarea>
             </div></br>
             <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="form-status" role="status" aria-live="polite"></div>
           </form>
         </div>
 
@@ -215,6 +268,31 @@
       <div class="copyright">
         &copy; Copyright <strong><span>DailyDirtBag</span></strong>. All Rights Reserved
       </div>
+      <div class="credits">
+        Satire. All stories and bylines are fictional.
+      </div>
+    </div>
+  </footer><!-- End #footer -->
+
+  <!-- ======= Sign Up Overlay ======= -->
+  <div class="modal-overlay" id="signup-modal" role="dialog" aria-modal="true" aria-labelledby="signup-title" hidden>
+    <div class="modal-box">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close sign up">&times;</button>
+      <h2 id="signup-title">Sign up</h2>
+      <p>Get notified when the next story drops. Your name and email go straight to the Daily Dirt Bag mailing list.</p>
+      <form action="https://api.sheetmonkey.io/form/8MZnHPYkh5xeq2bFE58ewi" method="post" role="form" class="php-email-form" data-ajax-form target="submit-frame">
+        <div class="form-group">
+          <input type="text" name="Name" placeholder="Your Name" class="form-control" required>
+        </div>
+        <div class="form-group mt-3">
+          <input type="email" name="Email" placeholder="Your Email" class="form-control" required>
+        </div>
+        <div class="text-center mt-3"><button type="submit">Get notified!</button></div>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+  <iframe name="submit-frame" title="form submission" hidden></iframe>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
